@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-"""
-   (i % 3) == 0 and (i % 5) == 0:
+""" FizzBuzz
 """
 import sys
 
 
 def fizzbuzz(n):
     """
-    FizzBuzz separated by a space.
-    
+    FizzBuzz function prints numbers from 1 to n separated by a space.
+    - For numbers which are multiples of both three and five print "FizzBuzz".
     """
     if n < 1:
         return
